@@ -19,18 +19,18 @@
 
 .content p {
     margin: 0.5rem 0 2.5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .row {
     margin-top: 1%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
 }
 
 .writer-col {
-    flex-basis: 22%;
-    border-radius: 5%;
+    flex-basis: 25%;
+    border-radius: 10%;
     margin-bottom: 10px;
     margin-top: 200px;
     position: relative;
@@ -39,8 +39,7 @@
 
 .writer-col img{
     width: 100%;
-    display: block;
-    text-align: center;
+    display:block;
 }
 
 .layer {
@@ -73,8 +72,9 @@
     opacity: 1;
 }
 .layer p {
-    width: 100%;
+    width: 90%;
     font-weight: 500;
+    text-align: center;
     color: #fff;
     font-size: 1rem;
     bottom: 0;
